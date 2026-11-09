@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	"archiveVersion" = 1;
+	"classes" = {
+	};
+	"objectVersion" = 56;
+	"objects" = {
+		"0D15A6285DD05EA6B83BA42D" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ContentView.swift";
+			"sourceTree" = "<group>";
+		};
+		"BE9D4B9E730EC905BE1BCC65" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0D15A6285DD05EA6B83BA42D";
+		};
+		"5A68E1954A9E9976EC9E3B03" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "LocationManager.swift";
+			"sourceTree" = "<group>";
+		};
+		"AF2C0D0717669745E695FE9B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5A68E1954A9E9976EC9E3B03";
+		};
+		"15209FE08D5134FC1ED5E325" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Lugar.swift";
+			"sourceTree" = "<group>";
+		};
+		"12ECE398F4321FAE6DDC3DA8" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "15209FE08D5134FC1ED5E325";
+		};
+		"CE8CE40BB934440729DF90FA" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "MapasYPermisosApp.swift";
+			"sourceTree" = "<group>";
+		};
+		"77C293929C60069A7859B4E6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "CE8CE40BB934440729DF90FA";
+		};
+		"CDAC683BE0B5A5EC14B4ED5B" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.application";
+			"includeInIndex" = 0;
+			"path" = "MapasYPermisos.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"A05952BC153E746ACEEF8BF5" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"0D15A6285DD05EA6B83BA42D",
+				"5A68E1954A9E9976EC9E3B03",
+				"15209FE08D5134FC1ED5E325",
+				"CE8CE40BB934440729DF90FA",
+				"A462EE04BA229BA8919EFDB1",
+				"14970A127A5BABBB9522E790",
+			);
+			"path" = "MapasYPermisos";
+			"sourceTree" = "<group>";
+		};
+		"E78B38C3BD2A61E1E11EBA71" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"CDAC683BE0B5A5EC14B4ED5B",
+			);
+			"name" = "Products";
+			"sourceTree" = "<group>";
+		};
+		"3197D5AA970CB2F9FB04EBD5" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"A05952BC153E746ACEEF8BF5",
+				"E78B38C3BD2A61E1E11EBA71",
+			);
+			"sourceTree" = "<group>";
+		};
+		"FDE6E3874D896B6D4D9F072C" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"BE9D4B9E730EC905BE1BCC65",
+				"AF2C0D0717669745E695FE9B",
+				"12ECE398F4321FAE6DDC3DA8",
+				"77C293929C60069A7859B4E6",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"9EFFE79B940B8F4868D3BDFB" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"D28D3F1CB6D9A66AB29B8AFC" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"B7498FE4BA8C8409E4D0BE7A" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"ALWAYS_SEARCH_USER_PATHS" = "NO";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"CLANG_WARN_DOCUMENTATION_COMMENTS" = "YES";
+				"COPY_PHASE_STRIP" = "NO";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ENABLE_NS_ASSERTIONS" = "YES";
+				"ENABLE_STRICT_OBJC_MSGSEND" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu17";
+				"GCC_NO_COMMON_BLOCKS" = "YES";
+				"GCC_OPTIMIZATION_LEVEL" = "0";
+				"GCC_PREPROCESSOR_DEFINITIONS" = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				"ONLY_ACTIVE_ARCH" = "YES";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG $(inherited)";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+			};
+			"name" = "Debug";
+		};
+		"566B8B4A4BD1ECB41F6E5E3C" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CODE_SIGN_STYLE" = "Automatic";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"COMBINE_HIDPI_IMAGES" = "YES";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"ENABLE_APP_SANDBOX" = "YES";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"ENABLE_PREVIEWS" = "YES";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"INFOPLIST_KEY_LSApplicationCategoryType" = "public.app-category.productivity";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation" = "YES";
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents" = "YES";
+				"INFOPLIST_KEY_UILaunchScreen_Generation" = "YES";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone" = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+				"MACOSX_DEPLOYMENT_TARGET" = "14.0";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				"MARKETING_VERSION" = "1.0";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "mx.edu.uacam.rafael.mapasypermisos";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"SDKROOT" = "auto";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator macosx";
+				"SUPPORTS_MACCATALYST" = "NO";
+				"SWIFT_EMIT_LOC_STRINGS" = "YES";
+				"SWIFT_VERSION" = "5.0";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"INFOPLIST_FILE" = "MapasYPermisos/Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "MapasYPermisos/MapasYPermisos.entitlements";
+			};
+			"name" = "Debug";
+		};
+		"E2AFD09A828642774E4A35E6" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"ALWAYS_SEARCH_USER_PATHS" = "NO";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"CLANG_WARN_DOCUMENTATION_COMMENTS" = "YES";
+				"COPY_PHASE_STRIP" = "NO";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"ENABLE_NS_ASSERTIONS" = "NO";
+				"ENABLE_STRICT_OBJC_MSGSEND" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu17";
+				"GCC_NO_COMMON_BLOCKS" = "YES";
+				"GCC_OPTIMIZATION_LEVEL" = "s";
+				"GCC_PREPROCESSOR_DEFINITIONS" = (
+					"$(inherited)",
+				);
+				"ONLY_ACTIVE_ARCH" = "NO";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited)";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+			};
+			"name" = "Release";
+		};
+		"33665D4E5C7713A7F741D58B" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CODE_SIGN_STYLE" = "Automatic";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"COMBINE_HIDPI_IMAGES" = "YES";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"ENABLE_APP_SANDBOX" = "YES";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"ENABLE_PREVIEWS" = "YES";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"INFOPLIST_KEY_LSApplicationCategoryType" = "public.app-category.productivity";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation" = "YES";
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents" = "YES";
+				"INFOPLIST_KEY_UILaunchScreen_Generation" = "YES";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone" = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+				"MACOSX_DEPLOYMENT_TARGET" = "14.0";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				"MARKETING_VERSION" = "1.0";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "mx.edu.uacam.rafael.mapasypermisos";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"SDKROOT" = "auto";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator macosx";
+				"SUPPORTS_MACCATALYST" = "NO";
+				"SWIFT_EMIT_LOC_STRINGS" = "YES";
+				"SWIFT_VERSION" = "5.0";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"INFOPLIST_FILE" = "MapasYPermisos/Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "MapasYPermisos/MapasYPermisos.entitlements";
+			};
+			"name" = "Release";
+		};
+		"AFC117987C9BE0C32CF8E772" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"B7498FE4BA8C8409E4D0BE7A",
+				"E2AFD09A828642774E4A35E6",
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"9F92602C4642149F38A94328" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"566B8B4A4BD1ECB41F6E5E3C",
+				"33665D4E5C7713A7F741D58B",
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"7834314D4CC1D72772EA604E" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "9F92602C4642149F38A94328";
+			"buildPhases" = (
+				"FDE6E3874D896B6D4D9F072C",
+				"9EFFE79B940B8F4868D3BDFB",
+				"D28D3F1CB6D9A66AB29B8AFC",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+			);
+			"name" = "MapasYPermisos";
+			"productName" = "MapasYPermisos";
+			"productReference" = "CDAC683BE0B5A5EC14B4ED5B";
+			"productType" = "com.apple.product-type.application";
+		};
+		"043AFB54D245C77FCEAC7A1C" = {
+			"isa" = "PBXProject";
+			"attributes" = {
+				"BuildIndependentTargetsInParallel" = "YES";
+				"LastUpgradeCheck" = "1500";
+				"TargetAttributes" = {
+					"7834314D4CC1D72772EA604E" = {
+						"CreatedOnToolsVersion" = "15.0";
+						"ProvisioningStyle" = "Automatic";
+					};
+				};
+			};
+			"buildConfigurationList" = "AFC117987C9BE0C32CF8E772";
+			"compatibilityVersion" = "Xcode 14.0";
+			"developmentRegion" = "es";
+			"hasScannedForEncodings" = 0;
+			"knownRegions" = (
+				"es",
+				"en",
+				"Base",
+			);
+			"mainGroup" = "3197D5AA970CB2F9FB04EBD5";
+			"productRefGroup" = "E78B38C3BD2A61E1E11EBA71";
+			"projectDirPath" = "";
+			"projectRoot" = "";
+			"targets" = (
+				"7834314D4CC1D72772EA604E",
+			);
+		};
+		"A462EE04BA229BA8919EFDB1" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "Info.plist";
+			"sourceTree" = "<group>";
+		};
+		"14970A127A5BABBB9522E790" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.entitlements";
+			"path" = "MapasYPermisos.entitlements";
+			"sourceTree" = "<group>";
+		};
+	};
+	"rootObject" = "043AFB54D245C77FCEAC7A1C";
+}

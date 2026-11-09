@@ -1,0 +1,27 @@
+name: Compilar Mapas para Appetize
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compilar:
+    runs-on: macos-15
+    timeout-minutes: 25
+    steps:
+      - name: Descargar codigo del repositorio
+        uses: actions/checkout@v6.1.0
+
+      - name: Compilar app para simulador y empaquetar
+        run: bash scripts/build_appetize.sh
+
+      - name: Publicar ZIP descargable para Appetize
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          path: salida/MapasYPermisos-Appetize.zip
+          archive: false
+          if-no-files-found: error
+          retention-days: 7
